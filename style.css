@@ -78,9 +78,10 @@ h1{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 98px;
-    position: relative;
-    top: -250px;
+    font-size: 9vw; /* 5% del ancho de la ventana */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Lo coloca en la parte superior */
+    left: 50%; /* mueve el centro horizontal*/
 }
 .intro-text p{
     font-family: "Boldonse", system-ui;
