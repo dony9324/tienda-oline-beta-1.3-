@@ -162,11 +162,10 @@ footer {
     position: relative;
     margin-top: auto;
 }
-/*.footer-content {
+.footer-content {
     
-    /*max-width: 800px;
-    margin: auto;
-}*/
+    width: 100%;
+}
 .social-icons {
     margin-top: 10px;
 }
